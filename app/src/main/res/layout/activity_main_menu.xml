@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/path4368"
+    tools:context="com.example.montoya.focalpoint.MainMenuActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/whole_logo2"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true" />
+
+    <Button style="@style/btnStyleSandrift"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:text="Begin Focusing!"
+        android:textSize="40sp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/begin_focusing_button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingTop="150dp"
+        android:layout_marginBottom="40dp"
+        android:onClick="onClickStartFocusing"/>
+
+
+    <Button style="@style/btnStyleOrange"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:text="View Performance"
+        android:textSize="15sp"
+        android:id="@+id/view_performance_button"
+        android:layout_alignTop="@+id/begin_focusing_button"
+        android:layout_toRightOf="@+id/begin_focusing_button"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:onClick="onClickViewPerformance"/>
+
+    <Button style="@style/btnStyleSeagull"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:text="Focus Tips"
+        android:textSize="22sp"
+        android:id="@+id/focus_tips_button"
+        android:layout_below="@+id/view_performance_button"
+        android:layout_toRightOf="@+id/begin_focusing_button"
+        android:layout_alignRight="@+id/view_performance_button"
+        android:layout_alignEnd="@+id/view_performance_button"
+        android:layout_above="@+id/about_button"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:onClick="onClickFocusTips"/>
+
+    <Button  style="@style/btnStyleSandrift"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:text="About"
+        android:textSize="30sp"
+        android:id="@+id/about_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/focus_tips_button"
+        android:layout_alignEnd="@+id/focus_tips_button"
+        android:layout_toRightOf="@+id/begin_focusing_button"
+        android:layout_toEndOf="@+id/begin_focusing_button"
+        android:layout_marginLeft="20dp"
+        android:onClick="onClickAbout"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:textSize="40sp"
+        android:id="@+id/settings_button"
+        style="@style/btnStyleOrange"
+        android:layout_below="@+id/begin_focusing_button"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/focus_tips_button"
+        android:layout_toStartOf="@+id/focus_tips_button" />
+
+
+    <Button style="@style/btnStyleSeagull"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="More Features Coming Soon!"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:id="@+id/coming_soon_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/settings_button"
+        android:layout_alignEnd="@+id/settings_button" />
+
+</RelativeLayout>

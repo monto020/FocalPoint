@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Focal Point</string>
+    <string name="year">Year</string>
+    <string name="month">Month</string>
+
+    <string-array name="months_array">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <string-array name="years_array">
+        <item>2016</item>
+        <item>2017</item>
+        <item>2018</item>
+    </string-array>
+
+        <string name="app_description_string">Focal Point is a student project written in Android Studios.
+            Equipt with a google log in and the mysqlite database, the writing of this app was a great learning
+        experience. The app visuals were made with Inkscape, and the generic widgets have been modified to improve
+        the apps aesthetics. </string>
+
+    <string name="known_bugs_description_string">Although pretty awesome, Focal Point is still in it\'s early stages, and has a few bugs.
+      \n Here are few that I\'m aware of: \n-List runs out of memory and crashes if scrolled too fast
+        (it was implemented with a View holder for  the CheckBox)
+     \n -App crashes if moved off screen and some other phone functionality is used, while loading a page.
+     \n -App doesn\'t account for the pushing Start Focusing button while timer is at 0.
+     \n -The graph page isn\'t completely finished. Spinner Listeners aren\'t implemented.</string>
+     \n -This app DOES NOT work with all apps. I\'d need to come up with a better search algorithm to improve the number of apps it works with.
+    There is a mixture of package names, and app names and there is no set standard for the assignment of those names.
+
+    <string name="ack_description_string">Thanks to Jared Rummler for his work with the Android Shell. My application would\'ve been
+        impossible without that. The new security that android implemented make some built in functions not work the way they\'re expected. I also
+        made use of StackOverflow, Youtube,Vogella, Google(API site), TutorialPoint, and developer.android. I\'m really grateful for all of these resources.
+    </string>
+
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false" xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/focal_point_us_png" android:duration="900" />
+    <item android:drawable="@drawable/focal_point_al_png" android:duration="900" />
+</animation-list>

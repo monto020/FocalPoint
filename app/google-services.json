@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "66624244848",
+    "project_id": "focal-point-192bf"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66624244848:android:43ef6af5013e6ae8",
+        "android_client_info": {
+          "package_name": "com.example.montoya.focalpoint"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "66624244848-ddpvdfliu9h8jmamt5bu58qro6ihniau.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.montoya.focalpoint",
+            "certificate_hash": "41CF39FFAFCC735F23C08C3BB3BF272F9691B15A"
+          }
+        },
+        {
+          "client_id": "66624244848-57jlulsj9hkb1rnb9k7cho325hj1nb4g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8rGI4bjLD4_9MJfBc103WJsKSfQVY2rw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
